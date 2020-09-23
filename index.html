@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <link rel="icon" href="devchallenges.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap">
+    <title>Devchallenges</title>
+    <style>
+      button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        padding: 0;
+        appearance: none;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 30px 50px;
+        min-height: 100vh;
+        position: relative;
+        box-sizing: border-box;
+        padding-bottom: 120px;
+      }
+      header {
+        font-family: Inconsolata;
+        font-weight: 700;
+        font-size: 24px;
+        color: #333333;
+        text-transform: uppercase;
+        margin-bottom: 100px;
+      }
+      main {
+        display: flex;
+      }
+      .image-wrapper {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .image {
+        width: 80%;
+        height: auto;
+      }
+      .content {
+        padding-left: 10px;
+        width: 50%;
+      }
+      .title {
+        font-family: 'Space Mono';
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 1.5;
+        color: #333333;
+      }
+      .description {
+        margin-top: 30px;
+        font-family: 'Space Mono';
+        font-weight: 400;
+        font-size: 24px;
+        color: #4f4f4f;
+      }
+      .button-wrapper {
+        margin-top: 40px;
+      }
+      .button {
+        font-family: 'Space Mono';
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        background-color: #333333;
+        padding: 24px 43px;
+        color: #ffffff;
+      }
+      footer {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        padding: 30px;
+        font-family: Montserrat;
+        font-size: 14px;
+      }
+      @media screen and (max-width: 768px) {
+        /* 480pxまでの幅の場合に適応される */
+        main {
+          flex-flow: column;
+        }
+        .image-wrapper {
+          width: 100%;
+        }
+        .image {
+          width: 100%;
+        }
+        .content {
+          width: auto;
+          margin-top: 20px;
+        }
+        .title {
+          font-size: 48px;
+        }
+        .description {
+          font-size: 18px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      404 Not found
+    </header>
+    <main>
+      <div class="image-wrapper">
+        <img src="Scarecrow.png" class="image">
+      </div>
+      <div class="content">
+        <div class="title">
+          I have bad news for you
+        </div>
+        <div class="description">
+          The page you are looking for might be removed or is temporarily unavailable
+        </div>
+        <div class="button-wrapper">
+          <button class="button">
+            Back to homepage
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      tacigar @ DevChallenges.io
+    </footer>
+  </body>
+</html>
